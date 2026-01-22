@@ -73,7 +73,7 @@ The **Measures** table `measures_` includes relevant calculation that has been d
   - `total_produced` - Sum of all the units produced
   - `total_cost` - Sum of all the cost for the production of each unit
   - `total_defective` - Sum of all the units that are defective
-  - `good_units` - Total defective units subtracted from total produced units
+  - `units_good` - Total defective units subtracted from total produced units
   - `waste_cost` - Sum of all the cost by defective units
   - `unit_cost` - Waste cost subtracted from the total cost
   - `total_planned_units` - Sum of all the planned units
