@@ -1,0 +1,75 @@
+machine_id,type,maintenance_status
+M001,Press,Scheduled
+M002,Quality Control,Operational
+M003,Packaging,Needs Repair
+M004,CNC,Scheduled
+M005,Cutting,Operational
+M006,Cutting,Operational
+M007,Welding,Needs Repair
+M008,Cutting,Operational
+M009,CNC,Operational
+M010,Assembly,Scheduled
+M011,Cutting,Operational
+M012,Assembly,Scheduled
+M013,Cutting,Operational
+M014,Packaging,Operational
+M015,Assembly,Operational
+M016,Press,Operational
+M017,Assembly,Operational
+M018,Assembly,Needs Repair
+M019,Packaging,Operational
+M020,Welding,Operational
+M021,Packaging,Operational
+M022,Welding,Needs Repair
+M023,CNC,Needs Repair
+M024,Assembly,Scheduled
+M025,Quality Control,Needs Repair
+M026,Cutting,Needs Repair
+M027,Assembly,Operational
+M028,Quality Control,Operational
+M029,Quality Control,Needs Repair
+M030,Cutting,Operational
+M031,Welding,Operational
+M032,Packaging,Operational
+M033,CNC,Needs Repair
+M034,Assembly,Scheduled
+M035,Cutting,Operational
+M036,CNC,Operational
+M037,CNC,Needs Repair
+M038,Cutting,Operational
+M039,Welding,Needs Repair
+M040,Quality Control,Scheduled
+M041,Quality Control,Operational
+M042,Packaging,Operational
+M043,Quality Control,Scheduled
+M044,Packaging,Operational
+M045,Packaging,Operational
+M046,CNC,Needs Repair
+M047,Packaging,Needs Repair
+M048,CNC,Operational
+M049,Assembly,Operational
+M050,Packaging,Operational
+M051,Press,Scheduled
+M052,CNC,Operational
+M053,Quality Control,Operational
+M054,Assembly,Operational
+M055,CNC,Operational
+M056,CNC,Operational
+M057,Welding,Operational
+M058,Welding,Operational
+M059,Packaging,Operational
+M060,Cutting,Operational
+M061,Packaging,Operational
+M062,Assembly,Operational
+M063,Press,Scheduled
+M064,Assembly,Needs Repair
+M065,Packaging,Needs Repair
+M066,Packaging,Needs Repair
+M067,Assembly,Scheduled
+M068,Assembly,Needs Repair
+M069,Quality Control,Needs Repair
+M070,Press,Scheduled
+M071,Cutting,Needs Repair
+M072,Packaging,Scheduled
+M073,CNC,Needs Repair
+M074,Assembly,Needs Repair
