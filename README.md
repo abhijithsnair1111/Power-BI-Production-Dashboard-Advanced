@@ -67,7 +67,7 @@ All the tables in the source dataset follows the standard convention of one fact
 ### DAX Calculations 📐
 The existing tables can only provide limited details when it comes to creating KPIs and other relevant metrics. Using Data Analytics Expressions (DAX) two other tables are created to make the visualization process easy and straight forward
 
-The **Measures** table `measures_` includes relevant calculation that has been derived from the existing measure values
+The **Measures** table `_measures` includes relevant calculation that has been derived from the existing measure values
 
 - Aggregated Values
   - `total_produced` - Sum of all the units produced
@@ -100,7 +100,7 @@ The **Measures** table `measures_` includes relevant calculation that has been d
 
 All the formulas are provided as a single DAX formula in [`measures_dax_formula`](scripts/measures_dax_formula.txt)
 
-The **Date** table is an expanded view of all the dates from production year
+The **Date** table `_date` is an expanded view of all the dates from production year
 
 The date table is calculated with the DAX formula [`date_dax_formula`](scripts/date_dax_formula.txt)
 
