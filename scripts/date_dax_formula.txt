@@ -1,0 +1,9 @@
+_date = 
+ADDCOLUMNS (
+    CALENDARAUTO(),
+    "year", YEAR([Date]),
+    "month_num", MONTH([Date]),
+    "month_long", FORMAT([Date], "mmmm"),
+    "month_short", FORMAT([Date], "mmm"),
+    "quarter", "Q" & FORMAT([Date], "Q")
+)
