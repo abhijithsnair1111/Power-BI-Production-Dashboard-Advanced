@@ -124,7 +124,7 @@ Typography - `Segoe UI`
 
 - **Product Page**
 
-  ![product_page](docs/product_page.png)
+  ![products_page](docs/products_page.png)
 
   There are five different types of visuals in the product page including the KPI card, which is consistent across all pages
   - Secondary KPI Cards - Good Units compared with Defective Units and Unit cost compared with waste cost
