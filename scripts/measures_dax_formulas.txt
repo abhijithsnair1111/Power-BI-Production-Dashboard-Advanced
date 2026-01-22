@@ -1,0 +1,102 @@
+// Aggregated Values
+
+// Total Produced
+total_produced = SUM(fact_production[units_produced])
+
+// Total Cost
+total_cost = SUMX(fact_production, fact_production[units_produced] * RELATED(dim_products[unit_cost]))
+
+// Total Defective
+total_defective = SUM(fact_production[units_defective])
+
+// Units Good
+units_good = [total_produced] - [total_defective]
+
+// Waste Cost
+waste_cost = SUMX(fact_production, fact_production[units_defective] * RELATED(dim_products[unit_cost]))
+
+// Unit Cost
+unit_cost = [total_cost] - [waste_cost]
+
+// Total Planned Units
+total_planned_units = SUM(fact_production[planned_units])
+
+// Projected Cost
+projected_cost = SUMX(fact_production, fact_production[planned_units] * RELATED(dim_products[unit_cost]))
+
+// Production To Target
+production_to_target = [total_planned_units] - [total_produced]
+
+
+// Percentage Values
+
+// Yield
+yield_% = DIVIDE([units_good], [total_produced], 0)
+
+// Efficiency
+efficiency_% = DIVIDE([total_planned_duration], [total_actual_duration], 0)
+
+// Performance
+performance_% = DIVIDE([total_produced], [total_planned_units], 0)
+
+// Overall Equipment Effectiveness
+oee = [efficiency_%] * [performance_%] * [yield_%]
+
+// Scrap Rate
+scrap_rate = DIVIDE([total_defective], [total_produced], 0)
+
+// Production Value
+production_value = 
+VAR t = [total_produced]
+VAR p = [total_planned_units]
+VAR perc = DIVIDE(t - p, p, 0)
+VAR _format =
+SWITCH(
+    TRUE(),
+    perc > 0, UNICHAR(11205) & " " & FORMAT(perc, "0.0%"),
+    perc < 0, UNICHAR(11206) & " " & FORMAT(perc * -1, "0.0%"),
+    FORMAT(perc, "0.0%")
+)
+RETURN _format
+
+
+// Time Series Values
+
+// Total Actual Duration
+total_actual_duration = SUM(fact_production[actual_duration])
+
+// Total Planned Duration
+total_planned_duration = SUM(fact_production[planned_duration])
+
+// Downtime Variance
+downtime_variance = [total_actual_duration] - [total_planned_duration]
+
+
+// Formatted Values
+
+// Total Time
+total_time = 
+VAR total_duration = SUM(fact_production[actual_duration])
+VAR hours = QUOTIENT(total_duration, 60)
+VAR minutes = MOD(total_duration, 60)
+
+RETURN
+IF (hours > 0, hours & "h ", "") & minutes & "m"
+
+// Planned Time
+planned_time = 
+VAR planned_minutes = SUM(fact_production[planned_duration])
+VAR hours = QUOTIENT(planned_minutes, 60)
+VAR minutes = MOD(planned_minutes, 60)
+
+RETURN
+IF (hours > 0, hours & "h ", "") & minutes & "m"
+
+// Downtime Variance Time
+downtime_variance_time = 
+VAR total_duration = [downtime_variance]
+VAR hours = QUOTIENT(total_duration, 60)
+VAR minutes = MOD(total_duration, 60)
+
+RETURN
+IF (hours > 0, hours & "h ", "") & minutes & "m"
