@@ -75,10 +75,10 @@ The Measures table include relevent calcualtion that has been derived from the e
   - `performance%` - The percantage of total production to  planned production
   - `oee` - Overall Equipment Effectiveness (Multiplying Yield, Efficiency and Performance)
   - `scrap_rate` - The percentage of defective units to total production
-  - `production_value` - The percentage of increase or decrease in total production compared to total planned production
+  - `production_value` - The percentage of increase or decrease in total production
 
 - Time Series Value
-  - `total_actual_duration1` - Sum of the production duration for each unit\
+  - `total_actual_duration` - Sum of the production duration for each unit\
   - `planned_duration` - Sum of the duration for each planned units
   - `down_time_variance` - Planned duration substracted from actual duration
  
