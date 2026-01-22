@@ -56,7 +56,7 @@ All the tables in the source dataset follows the standard convention of one fact
 ### DAX Calculations 📐
 The existing tables can only provide limited details when it comes to creating KPIs and other relevent metrics. Using Data Analytics Expressions (DAX) two other tables are created to make the visualization process easy and straight forward
 
-The Measures table include relevent calcualtion that has been derived from the existing measure values
+The **Measures** table `measures_` includes relevent calcualtion that has been derived from the existing measure values
 
 - Aggregated Values
   - `total_produced` - Sum of all the units produced
@@ -79,12 +79,19 @@ The Measures table include relevent calcualtion that has been derived from the e
 
 - Time Series Value
   - `total_actual_duration` - Sum of the production duration for each unit\
-  - `planned_duration` - Sum of the duration for each planned units
+  - `total_planned_duration` - Sum of the duration for each planned units
   - `down_time_variance` - Planned duration substracted from actual duration
  
 - Formatted Value
   - `total_time` - Actual duration formatted in hours and minutes
   - `planned_time` - Planned duration formatted in hours and minutes
+
+All the formuals are provideda as a single DAX formula in [`measures_dax_formula`](scripts/measures_dax_formula.txt)
+
+The **Date** table with an expanded view of all the dates from production year
+
+The date table is calculated with the DAX formula [`date_dax_formula`](scripts/date_dax_formula.txt)
+
 
 
 
