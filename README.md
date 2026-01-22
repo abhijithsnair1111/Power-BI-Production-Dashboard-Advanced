@@ -43,7 +43,7 @@ The data source for this project consist of three tables, one fact table detaili
 ### Data Cleaning and Standardization ⚙️
 The source data file consist of three main tables
 
-Production Fact table - [`fact_production`](dataset/fact_production.csv)
+Production Fact table - [`fact_production`](dataset/fact_production.csv)  
 Products Dimension table - [`dim_products`](dataset/dim_products.csv)  
 Equipments Dimension table - [`dim_equipments`](dataset/dim_equipments.csv)
 
