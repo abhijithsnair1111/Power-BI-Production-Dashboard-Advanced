@@ -21,6 +21,14 @@ Being able to derive business insight and analytical descision for Stakeholders 
 
 ## 📊 Dashboards
 
+### **Main Page**
+![main_page](docs/main_page.pdf)
+
+### **Products Page**
+![products_page](docs/products_page.pdf)
+
+### **Machines Page**
+![machines_page](docs/machines_page.pdf)
 
 ---
 
