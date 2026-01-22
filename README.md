@@ -98,7 +98,7 @@ The **Measures** table `_measures` includes relevant calculation that has been d
   - `planned_time` - Planned duration formatted in hours and minutes
   - `downtime_variance_time` - Downtime Variance formatted in hours and minutes
 
-All the formulas are provided as a single DAX formula in [`measures_dax_formula`](scripts/measures_dax_formula.txt)
+All the formulas are provided as a single DAX formula in [`measures_dax_formulas`](scripts/measures_dax_formulas.txt)
 
 The **Date** table `_date` is an expanded view of all the dates from production year
 
