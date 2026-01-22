@@ -138,6 +138,14 @@ Typography - `Segoe UI`
 
 All the visuals follows UI/UX princples, the provide all the neccessary details regarding all the components regarding the manufacturing process
 
+---
+
+## 🪛 Conclusion
+This project is a study on how to create an advanced Power BI dashboard with multiple pages and complex calculations. Following all the industry prctices for a modern and clean looking visuals while providing all the neccessary business insights with a cleean and easy to use interface.
+
+Thank You visting the Power BI Manufacturing Dashboard 📌
+
+---
 
 
 
