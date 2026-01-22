@@ -30,6 +30,9 @@ Being able to derive business insight and analytical decision for Stakeholders a
 ### **Machines Page**
 ![machines_page](docs/machines_page.pdf)
 
+### Filter Pane
+![filter_pane](docs/filter_pane.png)
+
 ---
 
 ## 💡Project Outline
