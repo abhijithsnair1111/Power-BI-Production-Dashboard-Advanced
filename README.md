@@ -32,7 +32,17 @@ The data source for this project consist of three tables, one fact table detaili
 ### Data Cleaning and Standardization ⚙️
 The source data file consist of three main tables
 
-Production Fact table - `fact_production`
+Production Fact table - [`fact_production`](dataset/fact_production.csv)
+Products Dimension table - [`dim_products`](dataset/dim_products.csv)
+Equipments Dimension table - [`dim_equipments`](dataset/dim_equipments.csv)
+
+Each table consists of multiple columns that are both dimensional values and measure values. Each columns should be analysed to ensure that the follow the standard data conventions
+
+- Remove any null values in the primary key columns
+- Remove all the leading and trailing spaces in the character columns
+- Ensure their are not null values in the date column
+- Assign the correct data type to each column
+
 
 
 
