@@ -62,7 +62,7 @@ After the data cleaning process the end data is clean normalized and standardize
 ### Data Modelling 🔗
 All the tables in the source dataset follows the standard convention of one fact table and multiple dimension tables, thus the right approach when it comes to modelling the relationship between the data is to establish a **Star Schema** pattern between the tables. The fact fact table would be placed on the centre and all the dimension tables surround them as to provide additional information for the central table. Each dimension table in the dataset consist of a Primary key, uniquely identifying each distinct element in the dimension table, these primary key appear multiple times inside the fact table to reference a element, in this case a specific product or an equipment. Thus these keys are used to form a one to many relation between the dimension and fact table.
 
-[data_model](docs.data_model.png)
+[data_model](docs/data_model.png)
 
 ### DAX Calculations 📐
 The existing tables can only provide limited details when it comes to creating KPIs and other relevant metrics. Using Data Analytics Expressions (DAX) two other tables are created to make the visualization process easy and straight forward
