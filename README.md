@@ -96,6 +96,7 @@ The **Measures** table `measures_` includes relevant calculation that has been d
 - Formatted Values
   - `total_time` - Actual duration formatted in hours and minutes
   - `planned_time` - Planned duration formatted in hours and minutes
+  - `downtime_variance_time` - Downtime Variance formatted in hours and minutes
 
 All the formulas are provided as a single DAX formula in [`measures_dax_formula`](scripts/measures_dax_formula.txt)
 
