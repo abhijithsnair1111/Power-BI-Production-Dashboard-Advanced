@@ -30,7 +30,9 @@ The Project is focused on creating a simple and interactive dashboard for an man
 The data source for this project consist of three tables, one fact table detailing the production details called `fact_production` and two other dimension table each with details concering the products and equipments, `dim_products` and `dim_equipments` respectively. This tables form a **Star Schema** pattern with the centre fact table and the surrounding dimension tables. Additionaly two other tabes should be formed, one to calculate the neccessary measures and one as a dedicated date table. All the tables should be adiquete to provide the neccessary details for a clean and medern looking ashboard that is both easy to use and contains all the insights that might be useful to take business desisions
 
 ### Data Cleaning and Standardization ⚙️
-The source data file 
+The source data file consist of three main tables
+
+Production Fact table - `fact_production`
 
 
 
