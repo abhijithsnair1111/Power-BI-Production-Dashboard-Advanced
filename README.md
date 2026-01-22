@@ -22,13 +22,13 @@ Being able to derive business insight and analytical decision for Stakeholders a
 ## 📊 Dashboards
 
 ### **Main Page**
-[main_page](docs/main_page.pdf)
+![main_page](docs/main_page.png)
 
 ### **Products Page**
-[products_page](docs/products_page.pdf)
+![products_page](docs/products_page.png)
 
 ### **Machines Page**
-[machines_page](docs/machines_page.pdf)
+![machines_page](docs/machines_page.png)
 
 ### Filter Pane
 ![filter_pane](docs/filter_pane.png)
@@ -112,7 +112,7 @@ Typography - `Segoe UI`
 
 - **Main Page**
 
-  [main_page](docs/main_page.pdf)
+  ![main_page](docs/main_page.png)
 
   There are six different types of visuals in the main page, each detailing different aspect of the manufacturing process
   - Main KPI Card - Total Production compared with Planned Production, Bar chart comparing the depicted values and a Line chart for monthly breakdown of production
@@ -124,7 +124,7 @@ Typography - `Segoe UI`
 
 - **Product Page**
 
-  [product_page](docs/product_page.pdf)
+  ![product_page](docs/product_page.png)
 
   There are five different types of visuals in the product page including the KPI card, which is consistent across all pages
   - Secondary KPI Cards - Good Units compared with Defective Units and Unit cost compared with waste cost
@@ -134,7 +134,7 @@ Typography - `Segoe UI`
  
 - **Machines Page**
 
-  [machines_page](docs/machines_page.pdf)
+  ![machines_page](docs/machines_page.png)
 
   There are also five different types of visual in the machines pages including the main KPI card
   - Secondary KPI Cards - A card view of all the equipment values presented in the main page along with Downtime Variance
