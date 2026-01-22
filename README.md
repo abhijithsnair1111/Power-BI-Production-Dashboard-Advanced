@@ -95,6 +95,9 @@ The date table is calculated with the DAX formula [`date_dax_formula`](scripts/d
 ### Data Visualization 📊
 Thier are a total of three dashboards in this project. The main page consists of all the neccessary details for a overview of the entire production, the products and machines page gives in depth analytical details about the subject matter.
 
+Color Palette - Primary `00668c`, Secondary `71c4ef`, Tertiary `d4eaf7`
+Typography - `Segoe UI`
+
 - **Main Page**
 
   ![main_page](docs/main_page.pdf)
@@ -133,8 +136,7 @@ Thier are a total of three dashboards in this project. The main page consists of
 
   There two buttons provided to control the filters, a 'Filters' button to access the filter pane and a 'Reset filters' button to clear all the filters. Inside the filters pane one can filter the whole page according to month, product category or products_id within and machine type with machine_id within. There are also two button in the filter pane one to apply all the filter and one to clear them.
 
-
-
+All the visuals follows UI/UX princples, the provide all the neccessary details regarding all the components regarding the manufacturing process
 
 
 
